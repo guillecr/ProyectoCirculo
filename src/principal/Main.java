@@ -3,13 +3,24 @@ package principal;
 import figura.Circulo;
 
 /**
- *
- * @author Guillermo
+ * Programa principal que usa los métodos de la clase Circulo
+ * @author Guillermo Casas Reche
+ * @author g.casas.r94@gmail.com
+ * @version 1.0
+ * @see <a href='http://guillermocasas.com'>Mas información</a>
  */
 public class Main {
 
     /**
-     * @param args the command line arguments
+     * Punto de entrada único para el proyecto
+     * 
+     * <ul>
+     *      <li> Utiliza métodos areCirculo
+     *      <li> Utiliza método perimetoCirculo
+     *      <li> Utiliza moveCirculo
+     *      <li> Utiliza el método GET para obtener Centrox y Centroy
+     * </ul>
+     * @param args es un array de tipo String
      */
     public static void main(String[] args) {
        double centrox=1;
